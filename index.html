@@ -1,128 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
-             <!--
-    Important Note About This Website's SEO
+	<title>Block Project</title>
+	<meta charset="UTF-8" />
+	
+	<style type="text/css">
+		* { font-family: Verdana, Arial, sans-serif; }
+		body { background-color: #fff; cursor: default; }
+		h1 { font-size: 15pt; }
+		p { font-size: 10pt; }
+	</style>
+</head>
 
-    Find the SEO content of this site's homepage via http://alemayhu21.wix.com/blockproject?_escaped_fragment_=
-    (That is where search engines like Google go to read your homepage's content.)
-
-    To view the SEO content of your internal pages, such as "Web Master", go here: http://alemayhu21.wix.com/blockproject?_escaped_fragment_=web-master/c4cr
-    (That is where search engines like Google go to read the content on your internal pages.)
-
-    For more information about Ajax Crawling technology, read Google's explanation here: https://developers.google.com/webmasters/ajax-crawling/
--->
-
-    
-                <meta charset="utf-8"/>
-<title>blockproject</title>
-<meta name="fb_admins_meta_tag" content=""/>
-<link rel="shortcut icon" href="http://www.wix.com/favicon.ico" type="image/png"/>
-<link rel="apple-touch-icon" href="http://www.wix.com/favicon.ico" type="image/png"/>
-<link rel="canonical" href="http://alemayhu21.wix.com/blockproject"/>
-    <meta http-equiv="X-Wix-Renderer-Server" content="app2.vae.aws"/>
-<meta http-equiv="X-Wix-Meta-Site-Id" content="f5e534a6-6f06-4850-bb8e-f5503b301890"/>
-<meta http-equiv="X-Wix-Application-Instance-Id" content="f56f83cf-f796-44e5-a197-ec4ee78cc359"/>
-<meta http-equiv="X-Wix-Published-Version" content="17"/>
-<meta http-equiv="etag" content="9a82b7d933d4da2c26de5588be1fa420"/>
-<meta property="og:title" content="blockproject"/>
-<meta property="og:type" content="article"/>
-<meta property="og:url" content="http://alemayhu21.wix.com/blockproject"/>
-<meta property="og:site_name" content="blockproject"/>
-<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
-
-<meta id="wixMobileViewport" name="viewport" content="minimum-scale=0.25, maximum-scale=1.2"/>
-        
-
-    
-<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VgUDU15ACQoGV1NUDg=="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o?o:e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e){function n(t,e,n){n||(n={});for(var r=o[t],a=r&&r.length||0,s=n[i]||(n[i]={}),u=0;a>u;u++)r[u].apply(s,e);return s}function r(t,e){var n=o[t]||(o[t]=[]);n.push(e)}var o={},i="nr@context";e.exports={on:r,emit:n}},{}],2:[function(t){function e(t,e,n,i,s){return u?u-=1:r("err",[s||new UncaughtException(t,e,n)]),"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t(5),a=window.onerror,s=!1,u=0;t("loader").features.push("err"),window.onerror=e,NREUM.noticeError=n;try{throw new Error}catch(d){"stack"in d&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&t(4),s=!0)}i.on("fn-start",function(){s&&(u+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&u>0&&(u-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:4,3:3,4:6,5:1,6:14,handle:"D5DuLP",loader:"G9z0Bl"}],3:[function(t){function e(t){r.inPlace(t,["addEventListener","removeEventListener"],"-",n)}function n(t){return t[1]}var r=t(1),o=(t(3),t(2));if(e(window),"getPrototypeOf"in Object){for(var i=document;i&&!i.hasOwnProperty("addEventListener");)i=Object.getPrototypeOf(i);i&&e(i);for(var a=XMLHttpRequest.prototype;a&&!a.hasOwnProperty("addEventListener");)a=Object.getPrototypeOf(a);a&&e(a)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&e(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t){if(t[1]){var e=t[1];"function"==typeof e?this.wrapped=e["nr@wrapped"]?t[1]=e["nr@wrapped"]:e["nr@wrapped"]=t[1]=r(e,"fn-"):"function"==typeof e.handleEvent&&r.inPlace(e,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:15,2:1,3:14}],4:[function(t){var e=(t(3),t(1)),n=t(2);e.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=e(t[0],"fn-")})},{1:15,2:1,3:14}],5:[function(t){function e(t){var e=t[0];"string"==typeof e&&(e=new Function(e)),t[0]=n(e,"fn-")}var n=(t(3),t(1)),r=t(2);n.inPlace(window,["setTimeout","setInterval","setImmediate"],"setTimer-"),r.on("setTimer-start",e)},{1:15,2:1,3:14}],6:[function(t){function e(){o.inPlace(this,s,"fn-")}function n(t,e){o.inPlace(e,["onreadystatechange"],"fn-")}function r(t,e){return e}var o=t(1),i=t(2),a=window.XMLHttpRequest,s=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];window.XMLHttpRequest=function(t){var n=new a(t);try{i.emit("new-xhr",[],n),o.inPlace(n,["addEventListener","removeEventListener"],"-",function(t,e){return e}),n.addEventListener("readystatechange",e,!1)}catch(r){try{i.emit("internal-error",r)}catch(s){}}return n},window.XMLHttpRequest.prototype=a.prototype,o.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",r),i.on("send-xhr-start",n),i.on("open-xhr-start",n)},{1:15,2:1}],7:[function(t){function e(){function e(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function n(t){var n=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;u>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!n.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){n.status=t.status;var a=t.responseType,d="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,f=e(d);if(f&&(r.rxSize=f),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;r.cbTime=this.cbTime,o("xhr",[n,r])}}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}t("loader").features.push("xhr");var o=t("handle"),i=t(1),a=t(5),s=["load","error","abort","timeout"],u=s.length,d=t(2);t(3),t(4),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=n,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,n){var r=this.metrics,o=t[0],i=this;if(r&&o){var d=e(o);d&&(r.txSize=d)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof n.onload))&&i.end(n)}catch(e){try{a.emit("internal-error",e)}catch(r){}}};for(var f=0;u>f;f++)n.addEventListener(s[f],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof XMLHttpRequest&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof XMLHttpRequest&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&e()},{1:8,2:11,3:3,4:6,5:1,handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],D5DuLP:[function(t,e){function n(t,e){var n=r[t];return n?n.apply(this,e):(o[t]||(o[t]=[]),void o[t].push(e))}var r={},o={};e.exports=n,n.queues=o,n.handlers=r},{}],11:[function(t,e){function n(t){if(!t||"object"!=typeof t&&"function"!=typeof t)return-1;if(t===window)return 0;if(o.call(t,"__nr"))return t.__nr;try{return Object.defineProperty(t,"__nr",{value:r,writable:!0,enumerable:!1}),r}catch(e){return t.__nr=r,r}finally{r+=1}}var r=1,o=Object.prototype.hasOwnProperty;e.exports=n},{}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&u&&u.body){p.proto="https"===c.split(":")[0]||t.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var e=u.createElement("script");e.src=p.proto+t.agent,u.body.appendChild(e)}}function r(){"complete"===u.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=window,u=s.document,d="addEventListener",f="attachEvent",c=(""+location).split("?")[0],p=e.exports={offset:i(),origin:c,features:[]};u[d]?(u[d]("DOMContentLoaded",o,!1),s[d]("load",n,!1)):(u[f]("onreadystatechange",r),s[f]("onload",n)),a("mark",["firstbyte",i()])},{handle:"D5DuLP"}],14:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],15:[function(t,e){function n(t,e,r,s){function nrWrapper(){try{var n,a=u(arguments),d=this,f=r&&r(a,d)||{}}catch(c){i([c,"",[a,d,s],f])}o(e+"start",[a,d,s],f);try{return n=t.apply(d,a)}catch(p){throw o(e+"err",[a,d,p],f),p}finally{o(e+"end",[a,d,n],f)}}return a(t)?t:(e||(e=""),nrWrapper[n.flag]=!0,nrWrapper)}function r(t,e,r,o){r||(r="");var i,s,u,d="-"===r.charAt(0);for(u=0;u<e.length;u++)s=e[u],i=t[s],a(i)||(t[s]=n(i,d?s+r:r,o,s,t))}function o(t,e,n){try{s.emit(t,e,n)}catch(r){i([r,t,e,n])}}function i(t){try{s.emit("internal-error",t)}catch(e){}}function a(t){return!(t&&"function"==typeof t&&t.apply&&!t[n.flag])}var s=t(1),u=t(2);e.exports=n,n.inPlace=r,n.flag="nr@wrapper"},{1:1,2:14}]},{},["G9z0Bl",2,7]);</script>
-
-    <!-- META DATA -->
-<script type="text/javascript">
-    var rendererModel = {"debugMode":"nodebug","previewMode":false,"serviceMappings":{"2":{"idInMetaSite":2,"idInApp":"f56f83cf-f796-44e5-a197-ec4ee78cc359","applicationType":"HtmlWeb"}},"metaSiteId":"f5e534a6-6f06-4850-bb8e-f5503b301890","premiumFeatures":[],"siteId":"f56f83cf-f796-44e5-a197-ec4ee78cc359","userId":"2af76530-3c94-4697-81c0-5090a8d75d98","published":true,"revision":17,"applicationType":"HtmlWeb","documentType":"UGC","siteTitleSEO":"blockproject","clientSpecMap":{"13":{"type":"sitemembers","applicationId":13,"collectionType":"Open","smcollectionId":"7d6313c8-07ca-41df-b5d1-3b531abcd373"},"1":{"type":"wixapps","applicationId":1,"appDefinitionId":"e4c4a4fb-673d-493a-9ef1-661fa3823ad7","datastoreId":"138349aa-1b4b-574c-227d-f2199fceee4b","packageName":"menu","state":"Initialized","widgets":{"1660c5f3-b183-4e6c-a873-5d6bbd918224":{"widgetId":"1660c5f3-b183-4e6c-a873-5d6bbd918224","defaultHeight":100,"defaultWidth":400}}},"2":{"type":"appbuilder","applicationId":2,"appDefinitionId":"3d590cbc-4907-4cc4-b0b1-ddf2c5edf297","instanceId":"138349aa-1f0b-9418-2df9-3c4ca6101bdc","state":"Initialized"},"14":{"type":"wixapps","applicationId":14,"appDefinitionId":"61f33d50-3002-4882-ae86-d319c1a249ab","datastoreId":"138349aa-1fc9-2453-a97f-bc2f681ef6fe","packageName":"blog","state":"Initialized","widgets":{"56ab6fa4-95ac-4391-9337-6702b8a77011":{"widgetId":"56ab6fa4-95ac-4391-9337-6702b8a77011","defaultHeight":400,"defaultWidth":210},"31c0cede-09db-4ec7-b760-d375d62101e6":{"widgetId":"31c0cede-09db-4ec7-b760-d375d62101e6","defaultHeight":600,"defaultWidth":680},"1b8c501f-ccc2-47e7-952a-47e264752614":{"widgetId":"1b8c501f-ccc2-47e7-952a-47e264752614","defaultHeight":280,"defaultWidth":916},"33a9f5e0-b083-4ccc-b55d-3ca5d241a6eb":{"widgetId":"33a9f5e0-b083-4ccc-b55d-3ca5d241a6eb","defaultHeight":220,"defaultWidth":210},"c7f57b50-8940-4ff1-83c6-6756d6f0a1f4":{"widgetId":"c7f57b50-8940-4ff1-83c6-6756d6f0a1f4","defaultHeight":220,"defaultWidth":210},"f72fe377-8abc-40f2-8656-89cfe00f3a22":{"widgetId":"f72fe377-8abc-40f2-8656-89cfe00f3a22","defaultHeight":300,"defaultWidth":210},"c340212a-6e2e-45cd-9dc4-58d01a5b63a7":{"widgetId":"c340212a-6e2e-45cd-9dc4-58d01a5b63a7","defaultHeight":300,"defaultWidth":210},"ea63bc0f-c09f-470c-ac9e-2a408b499f22":{"widgetId":"ea63bc0f-c09f-470c-ac9e-2a408b499f22","defaultHeight":800,"defaultWidth":800},"4de5abc5-6da2-4f97-acc3-94bb74285072":{"widgetId":"4de5abc5-6da2-4f97-acc3-94bb74285072","defaultHeight":800,"defaultWidth":800},"e000b4bf-9ff1-4e66-a0d3-d4b365ba3af5":{"widgetId":"e000b4bf-9ff1-4e66-a0d3-d4b365ba3af5","defaultHeight":400,"defaultWidth":210},"43c2a0a8-f224-4a29-bd19-508114831a3a":{"widgetId":"43c2a0a8-f224-4a29-bd19-508114831a3a","defaultHeight":40,"defaultWidth":210}}},"15":{"type":"public","applicationId":15,"appDefinitionId":"13322a7c-6039-ac58-86e8-48b76f901d91","appDefinitionName":"Site Search","instance":"Rhi6_Its8ck6AVGHYbkNXzAgSn-NlzJUsvTohUa1-Cs.eyJpbnN0YW5jZUlkIjoiMTM4MzRkYmUtYzM2YS1lMWVmLTYwZmUtZWUwZmQzY2MyYjJiIiwic2lnbkRhdGUiOiIyMDE0LTA3LTIyVDIxOjE2OjEwLjM3NloiLCJpcEFuZFBvcnQiOiI2OC4xMDAuMTcxLjg1LzUzMjM4IiwiZGVtb01vZGUiOmZhbHNlfQ","sectionPublished":true,"sectionMobilePublished":false,"sectionSeoEnabled":true,"widgets":{"13322a9f-8ffc-59f0-c8fc-ca95943cb55c":{"widgetUrl":"http://wix.instantsearchplus.com/wix_widget/wix_instantsearchplus_widget-V2.html","widgetId":"13322a9f-8ffc-59f0-c8fc-ca95943cb55c","refreshOnWidthChange":true,"mobileUrl":"http://wix.instantsearchplus.com/wix_widget/wix_instantsearchplus_widget-V2.html?mobile=1","published":true,"mobilePublished":true,"seoEnabled":true}},"appRequirements":{"requireSiteMembers":false},"installedAtDashboard":true},"16":{"type":"public","applicationId":16,"appDefinitionId":"136f9218-6b1b-7b67-9ae4-664d3a833580","appDefinitionName":"Wonder Search","instance":"gPFN7lxxd4HS7pKo-4ofaXBYSHZM0GvpqUv1q0A801Q.eyJpbnN0YW5jZUlkIjoiMTM4MzRkZGItOTgyYi03MTY4LWE3YmMtMDFjOWU0N2I5MjZiIiwic2lnbkRhdGUiOiIyMDE0LTA3LTIyVDIxOjE2OjEwLjM3NloiLCJpcEFuZFBvcnQiOiI2OC4xMDAuMTcxLjg1LzUzMjM4IiwiZGVtb01vZGUiOmZhbHNlfQ","sectionPublished":true,"sectionMobilePublished":false,"sectionSeoEnabled":true,"widgets":{"136f9329-0e74-48fe-e4cd-14548c1da9d2":{"widgetUrl":"http://suadmin-wix.sphereup.com/Wix/Widget","widgetId":"136f9329-0e74-48fe-e4cd-14548c1da9d2","refreshOnWidthChange":true,"mobileUrl":"http://suadmin-wix.sphereup.com/Wix/Widget","published":true,"mobilePublished":true,"seoEnabled":true}},"appRequirements":{"requireSiteMembers":false},"installedAtDashboard":true},"17":{"type":"public","applicationId":17,"appDefinitionId":"12ac7a80-1f11-0ce7-9a53-34790bde9fc4","appDefinitionName":"Social Forum","instance":"J3bVNNycYpIZzhQWYe4YdU5K81BEJ-z4mYAaQ-8sy0U.eyJpbnN0YW5jZUlkIjoiMTM4MzRlODgtYmI1Yy1mMDViLWE3YmMtMDFjOWU0N2I5MjZiIiwic2lnbkRhdGUiOiIyMDE0LTA3LTIyVDIxOjE2OjEwLjM3NloiLCJpcEFuZFBvcnQiOiI2OC4xMDAuMTcxLjg1LzUzMjM4IiwiZGVtb01vZGUiOmZhbHNlfQ","sectionUrl":"http://www.pnyxe.com/wixForumEndpoint","sectionMobileUrl":"http://www.pnyxe.com/wixForumMobileEndpoint","sectionPublished":true,"sectionMobilePublished":false,"sectionSeoEnabled":true,"sectionDefaultPage":"","sectionRefreshOnWidthChange":true,"widgets":{"13810ec0-7fc7-2a20-4616-92e36b1ead6b":{"widgetUrl":"http://www.pnyxe.com/wixForumEndpoint","widgetId":"13810ec0-7fc7-2a20-4616-92e36b1ead6b","refreshOnWidthChange":true,"mobileUrl":"http://www.pnyxe.com/wixForumMobileEndpoint","appPage":{"id":"Social Forum","name":"Social Forum","defaultPage":"","hidden":false},"published":true,"mobilePublished":false,"seoEnabled":true}},"appRequirements":{"requireSiteMembers":false},"installedAtDashboard":true}},"runningExperiments":{"mobileactionsmenu":"new","animationnewbehaviors":"new","featuredandrecentposts":"new","viewerspagesync":"new","feedmefixes":"new","wixappsgalleries":"new","matrixgallerytransparentskin":"new","CleanupAsyncAndWClass":"New","useClientNewDeployViewer":"true","mobilehiddenelementsrefactor":"new","ecomgalleries":"new","newseparatetextboxskin":"new","changegallery":"new","backtotopbutton":"New","redirectfeature301data":"new","appreporefactor":"new","feedmereviewtranslations":"new","sitepagesvalidation":"new","nougcanalytics":"new","editormetadatarelocation":"new","xclassstaticsfix":"new","headertagsvalidation":"new","removeeditboxpadding":"new","editorMenu":"New","resetpasswordfromemail":"new","nbc_renderonlydisplayed":"new","subscribeform":"new","clipsush2":"new","exitmobilemode":"new","appbuildertemplatereadfix":"new","workaroundsaveddeadcompskin":"new","EcomFeedback":"New","superrichtexteditor":"new","superrichtext":"new","textoncenterskin":"new","clippedParagraphSafariFix":"New"},"languageCode":"en","scriptsCacheKiller":1,"siteMetaData":{"preloader":{"enabled":false},"hasMobileStructure":false,"quickActions":{"socialLinks":[],"colorScheme":"dark","configuration":{"quickActionsMenuEnabled":false,"navigationMenuEnabled":true,"phoneEnabled":false,"emailEnabled":false,"addressEnabled":false,"socialLinksEnabled":false}},"contactInfo":{"companyName":"","phone":"","fax":"","email":"","address":""}},"geo":"USA"};
-    var publicModel = {"externalBaseUrl":"http://alemayhu21.wix.com/blockproject","domain":"wix.com","premiumFeatures":[],"language":"en","favicon":"","suppressTrackingCookies":false,"pageList":{"masterPage":["http://static.parastorage.com/sites/2af765_ff0cf271eb9b3a39eeafaac1b57b89f7_14.json.z?v=2","http://static.wixstatic.com/sites/2af765_ff0cf271eb9b3a39eeafaac1b57b89f7_14.json.z?v=2","http://archive.wix.com/sites/2af765_ff0cf271eb9b3a39eeafaac1b57b89f7_14.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_ff0cf271eb9b3a39eeafaac1b57b89f7_14.json"],"pages":[{"pageId":"c4cr","title":"Web Master","urls":["http://static.parastorage.com/sites/2af765_45b55f081e5e35329a5bbd5e27b84bd9_9.json.z?v=2","http://static.wixstatic.com/sites/2af765_45b55f081e5e35329a5bbd5e27b84bd9_9.json.z?v=2","http://archive.wix.com/sites/2af765_45b55f081e5e35329a5bbd5e27b84bd9_9.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_45b55f081e5e35329a5bbd5e27b84bd9_9.json"]},{"pageId":"cjg9","title":"Chat/IRC","urls":["http://static.parastorage.com/sites/2af765_3c5a11ff9936a44af1c8800058566675_4.json.z?v=2","http://static.wixstatic.com/sites/2af765_3c5a11ff9936a44af1c8800058566675_4.json.z?v=2","http://archive.wix.com/sites/2af765_3c5a11ff9936a44af1c8800058566675_4.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_3c5a11ff9936a44af1c8800058566675_4.json"]},{"pageId":"c24vq","title":"Contact","urls":["http://static.parastorage.com/sites/2af765_3c0bf2e2fffdee8e7357bf9abbcfc8d8_11.json.z?v=2","http://static.wixstatic.com/sites/2af765_3c0bf2e2fffdee8e7357bf9abbcfc8d8_11.json.z?v=2","http://archive.wix.com/sites/2af765_3c0bf2e2fffdee8e7357bf9abbcfc8d8_11.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_3c0bf2e2fffdee8e7357bf9abbcfc8d8_11.json"]},{"pageId":"cee5","title":"Downloads","urls":["http://static.parastorage.com/sites/2af765_a0bad01d00d6f50cadaa9aeedae23712_11.json.z?v=2","http://static.wixstatic.com/sites/2af765_a0bad01d00d6f50cadaa9aeedae23712_11.json.z?v=2","http://archive.wix.com/sites/2af765_a0bad01d00d6f50cadaa9aeedae23712_11.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_a0bad01d00d6f50cadaa9aeedae23712_11.json"]},{"pageId":"c23te","title":"Forums","urls":["http://static.parastorage.com/sites/2af765_9360d394306a180c0e20286b75bae52a_12.json.z?v=2","http://static.wixstatic.com/sites/2af765_9360d394306a180c0e20286b75bae52a_12.json.z?v=2","http://archive.wix.com/sites/2af765_9360d394306a180c0e20286b75bae52a_12.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_9360d394306a180c0e20286b75bae52a_12.json"]},{"pageId":"mainPage","title":"Home","urls":["http://static.parastorage.com/sites/2af765_6fe3b14cbadcf5143be2747ca2e5d8d3_11.json.z?v=2","http://static.wixstatic.com/sites/2af765_6fe3b14cbadcf5143be2747ca2e5d8d3_11.json.z?v=2","http://archive.wix.com/sites/2af765_6fe3b14cbadcf5143be2747ca2e5d8d3_11.json.z?v=2","http://fallback.wix.com/wix-html-editor-pages-webapp/page/2af765_6fe3b14cbadcf5143be2747ca2e5d8d3_11.json"]}],"mainPageId":"mainPage"},"siteRevision":17,"timeSincePublish":1271172,"adaptiveMobileOn":true};
-    var serviceTopology = {"serverName":"app2.vae.aws","cacheKillerVersion":"1","staticServerUrl":"http://static.parastorage.com/","usersScriptsRoot":"http://static.parastorage.com/services/wix-users/2.411.0","biServerUrl":"http://frog.wix.com/","userServerUrl":"http://users.wix.com/","billingServerUrl":"http://premium.wix.com/","mediaRootUrl":"http://static.wixstatic.com/","logServerUrl":"http://frog.wix.com/plebs","monitoringServerUrl":"http://TODO/","usersClientApiUrl":"https://users.wix.com/wix-users","publicStaticBaseUri":"http://static.parastorage.com/services/wix-public/1.109.0","basePublicUrl":"http://www.wix.com/","postLoginUrl":"http://www.wix.com/my-account","postSignUpUrl":"http://www.wix.com/new/account","baseDomain":"wix.com","staticMediaUrl":"http://static.wixstatic.com/media","staticAudioUrl":"http://storage.googleapis.com/static.wixstatic.com/mp3","emailServer":"http://assets.wix.com/common-services/notification/invoke","blobUrl":"http://static.parastorage.com/wix_blob","htmlEditorUrl":"http://editor.wix.com/html","siteMembersUrl":"https://users.wix.com/wix-sm","scriptsLocationMap":{"bootstrap":"http://static.parastorage.com/services/bootstrap/2.974.4","it":"http://static.parastorage.com/services/experiments/it/1.37.0","wix-insta-template":"http://static.parastorage.com/services/experiments/wix-insta-template/1.8.0","automation":"http://static.parastorage.com/services/automation/1.23.0","ecommerce":"http://static.parastorage.com/services/ecommerce/1.174.0","wixapps":"http://static.parastorage.com/services/wixapps/2.399.0","web":"http://static.parastorage.com/services/web/2.974.4","numericstepper":"http://static.parastorage.com/services/experiments/numericstepper/1.11.0","ut":"http://static.parastorage.com/services/experiments/ut/1.2.0","tpa":"http://static.parastorage.com/services/tpa/2.840.0","ck-editor":"http://static.parastorage.com/services/ck-editor/1.85.0","subscribeform":"http://static.parastorage.com/services/experiments/subscribeform/1.21.0","ecomfeedback":"http://static.parastorage.com/services/experiments/ecomfeedback/1.12.0","sitemembers":"http://static.parastorage.com/services/sm-js-sdk/1.31.0","hotfixes":"http://static.parastorage.com/services/experiments/hotfixes/1.12.0","backtotopbutton":"http://static.parastorage.com/services/experiments/backtotopbutton/1.15.0","langs":"http://static.parastorage.com/services/langs/2.427.0","verifypremium":"http://static.parastorage.com/services/experiments/verifypremium/1.8.0","core":"http://static.parastorage.com/services/core/2.974.4","mobilequicktour":"http://static.parastorage.com/services/experiments/mobilequicktour/1.16.0","editormenu":"http://static.parastorage.com/services/experiments/editormenu/1.166.0","skins":"http://static.parastorage.com/services/skins/2.974.4"},"developerMode":false,"userFilesUrl":"http://static.parastorage.com/","staticHTMLComponentUrl":"http://alemayhu21.wix.com.usrfiles.com/","secured":false,"ecommerceCheckoutUrl":"https://www.safer-checkout.com/","premiumServerUrl":"https://premium.wix.com/","appRepoUrl":"http://assets.wix.com/wix-lists-ds-webapp","digitalGoodsServerUrl":"http://dgs.wixapps.net/","publicStaticsUrl":"http://static.parastorage.com/services/wix-public/1.109.0","staticDocsUrl":"http://media.wix.com/ugd"};
-    var siteHeader = {"id":"f56f83cf-f796-44e5-a197-ec4ee78cc359", "userId":"2af76530-3c94-4697-81c0-5090a8d75d98"};
-    var siteId = siteHeader.id;
-
-    var configUrls = serviceTopology;
-
-    var debugMode = "nodebug";
-    var viewMode = (rendererModel.previewMode) ? 'preview' : 'site';
-
-    var googleAnalytics = ""
-    ;
-
-</script>
-
-
-    <meta name="fragment" content="!"/>
-        <!-- DATA -->
-<script type="text/javascript">
-    var adData = {"topLabel":"<span class=\"smallMusa\">(Wix-Logo) </span>Create a <span class=\"smallLogo\">Wix</span> site!","topContent":"100s of templates<br />No coding needed<br /><span class=\"emphasis spacer\">Start now >></span>","footerLabel":"<div class=\"adFootBox\"><div class=\"siteBanner\" >
-    var usersDomain = "https://users.wix.com//wix-users";
-        </script>
-
-
-
-            <script src="http://static.parastorage.com/services/wix-users/2.411.0/client/js/userApi_v2.js?cacheKiller=1"></script>
-            <script src="http://static.parastorage.com/services/wix-users/2.411.0/user-api/user-api.min.js?cacheKiller=1"></script>
-    
-    
-            <script type="text/javascript">
-            var userApi = UserApi.getInstance().init({
-                "usersDomain":"http://users.wix.com//wix-users",
-                "corsEnabled":false,
-                "dontHandShake":true,
-                "urlThatUserRedirectedFrom":"$"
-            });
-
-            UserServerApi.setOptions({
-                "usersDomain":"http://users.wix.com//wix-users",
-                "urlParams": { "urlThatUserRedirectedFrom" : "$" }
-            });
-        </script>
-    
-    </head>
 <body>
-              <link rel="stylesheet" type="text/css" href="http://static.parastorage.com/services/web/2.974.4/css/wysiwyg/preloader.css">
-
-<div id="viewer_preloader">
-    <p>Loading</p>
-    <h2></h2>
-    <div id="preloader"></div>
-</div>
-
-<script type="text/javascript" src="http://static.parastorage.com/services/core/2.974.4/javascript/core/utils/mobile_utils.js"></script>
-<script type="text/javascript" src="http://static.parastorage.com/services/web/2.974.4/javascript/wysiwyg/viewer/preloader.js"></script>
-              
-            <!-- debug mode=nodebug -->
-<!-- anc2 -->
-<script type="text/javascript">
-var anchors = {};
-
-
-</script>
-
-<script src="http://static.parastorage.com/services/bootstrap/2.974.4/javascript/bootstrap.min.js"></script>
-<script src="http://static.parastorage.com/services/web/2.974.4/deployviewer.min.js"></script>
-    
-
-    
-        
-        <script src="http://static.parastorage.com/services/web/2.974.4/javascript/wysiwyg/viewer/deprecatedbrowsers/UpgradeBrowser.js"></script>
-
-<div comp="wysiwyg.viewer.components.WixAds" skin="wysiwyg.viewer.skins.wixadsskins.WixAdsWebSkin" id="wixFooter"></div>
-
-    
-
-    <script>
-        window.define && define.resource('status.structure.loaded', true);
-    </script>
-
-
-
-<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"1963269,1963281","applicationTime":7,"beacon":"beacon-6.newrelic.com","queueTime":0,"licenseKey":"c99d7f1ab0","transactionName":"ZFAHNkNYXUBQVEUKXF0aKDRyFmRWU39FDl9hUAsGVEtWQR9FVA1XVkc=","agent":"js-agent.newrelic.com\/nr-411.min.js","errorBeacon":"bam.nr-data.net"}</script>
+	<h1>Welcome to Block Project</h1>
+	<p>A Minecraft PE Server from Java</p>
+	<ul>
+	    <li><a href="/">Home</a></li>
+	    <li><a href="/irc">IRC</a></li>
+	    <li><a href="/downloads">Downloads</a></li>
+	<ul>
 </body>
 </html>
