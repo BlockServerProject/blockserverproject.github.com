@@ -12,7 +12,7 @@
     <!-- Uses a transparent header that draws on top of the layout's background -->
 <style>
 .demo-layout-transparent {
-  background: url('http://services.minecraftedu.com/worlds/sites/default/files/worlds/84/screenshots/2012-04-15_205556_2000620_84.jpg') center / cover;
+  background: url('img/redstone-1680x1050.jpg') center / cover;
 }
 .demo-layout-transparent .mdl-layout__header,
 .demo-layout-transparent .mdl-layout__drawer-button {
@@ -49,5 +49,42 @@
   </div>
   <main class="mdl-layout__content">
   </main>
+  
+  <!-- Wide card with share menu button -->
+<style>
+.demo-card-wide.mdl-card {
+  width: 512px;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('img/article-image-welcome.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+</style>
+
+<div class="demo-card-wide mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title">
+    <h2 class="mdl-card__title-text">Welcome</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+    Welcome to BlockServer! BlockServer is an open source platform for Minecraft server software. It is very extensible and open source. This repository contains the core which is needed to run and load the extra modules which allow players to connect to the server.
+    
+The BlockServer Project develops modules to support both PC and PE connections. Currently PC is lower priority as our goal is to support PE first. Right now BlockServer is in-dev, but if you still want to get BlockServer feel free to.
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a href="https://github.com/BlockServerProject/BlockServer" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      GitHub
+    </a>
+    <img src="https://travis-ci.org/BlockServerProject/BlockServer.svg?branch=master">
+  </div>
+  <div class="mdl-card__menu">
+    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+      <i class="material-icons">share</i>
+    </button>
+  </div>
+</div>
     </body>
 </html>
